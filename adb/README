@@ -3,6 +3,7 @@ adbd for non-Android devices
 
 To build adbd you need to specify your toolchain and openssl path to build adbd
 
+	cd adb
 	export TOOLCHAIN=<your_toolchain_path_with_prefix>
 	export OPENSSL_DIR=<path_to_openssl>
 	make
