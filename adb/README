@@ -1,0 +1,19 @@
+adbd for non-Android devices
+----------------------------
+
+To build adbd you need to specify your toolchain and openssl path to build adbd
+
+	export TOOLCHAIN=<your_toolchain_path_with_prefix>
+	export OPENSSL_DIR=<path_to_openssl>
+	make
+
+Thanks to:
+
+- https://hev.cc/2227.html
+- http://android.serverbox.ch/?p=1217
+- http://events.linuxfoundation.org/images/stories/pdf/lf_abs12_kobayashi.pdf
+
+Contact
+-------
+
+Yoann Sculo <yoann@sculo.fr>
